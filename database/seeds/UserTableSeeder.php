@@ -13,9 +13,9 @@ class UserTableSeeder extends Seeder
     {
         DB::table('usuarios')->insert([
             'dni' => 75316518,
-            'nombres' => 'RUBEN',
-            'apellidos' => 'PUERTA NOVOA',
-            'email' => 'novoa1498@gmail.com',
+            'nombres' => 'Admin',
+            'apellidos' => 'Super',
+            'email' => 'super@gmail.com',
             'email_verified_at' => now(),
             'password' => '$2y$10$9EzgeMLnru8mCfzapP9i.e96hMNx1Z0v1g/YXW9Mw06IDrAfw8/uG', // secret
             'remember_token' => str_random(10),
